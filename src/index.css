@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-primary: var(--color-primary);
+  --color-primary-fg: var(--color-primary-fg);
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-border: var(--color-border);
+  
+  --color-secondary: var(--color-secondary);
+  --color-secondary-fg: var(--color-secondary-fg);
+  
+  --color-tertiary: var(--color-tertiary);
+  --color-tertiary-fg: var(--color-tertiary-fg);
+
+  --color-success: var(--color-success);
+  --color-danger: var(--color-danger);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+@layer base {
+  :root {
+    /* Structural fallbacks — if a var is set to "" these kick in */
+    --color-surface: var(--color-bg);
+    --color-border: transparent;
+    --color-text-muted: var(--color-text);
+
+    /* Brand fallbacks — secondary silently mirrors primary if unset */
+    --color-secondary: var(--color-secondary);
+    --color-secondary-fg: var(--color-secondary-fg);
+
+    --color-tertiary: var(--color-tertiary);
+    --color-tertiary-fg: var(--color-tertiary-fg);
+
+    --color-success: #22c55e;
+    --color-danger: #ef4444;
+
+    --font-display: 'Inter', system-ui, sans-serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    @apply bg-bg text-text font-body;
+  }
+
+  /* Custom Scrollbar Styling */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border) transparent;
+  }
+
+  /* Chrome, Edge, and Safari */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-border);
+    border-radius: 20px;
+    border: 1px solid transparent;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-text-muted);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+}

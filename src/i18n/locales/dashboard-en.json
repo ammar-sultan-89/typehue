@@ -1,0 +1,93 @@
+{
+  "dashboard": {
+    "sidebar": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "system": "System",
+      "dashboard": "Dashboard",
+      "projects": "Projects",
+      "templates": "Templates",
+      "activity": "Activity",
+      "settings": "Settings",
+      "help": "Help Center",
+      "badge_new": "3 New",
+      "name": "Ammar Sultan",
+      "plan": "Pro Plan",
+      "initials": "AS"
+    },
+    "topbar": {
+      "title": "Design Dashboard",
+      "date_range": "Last 30 Days",
+      "action_button": "Create Theme",
+      "workspace": "Project Name"
+
+    },
+    "stats": {
+      "total_generations": "Theme Generations",
+      "active_users": "Active Users",
+      "avg_duration": "Generation Time",
+      "increase": "+12.5% from last month",
+      "decrease": "-2.1% from last month",
+      "stable": "Stable"
+    },
+    "charts": {
+      "generations_by_type": "Theme Generations by Type",
+      "analogous": "Analogous",
+      "triadic": "Triadic",
+      "split_complementary": "Split-Complementary",
+      "daily_active_users": "Daily Active Users vs Exports",
+      "active_users": "Active Users",
+      "exports": "Exports",
+      "palette_distribution": "Palette Distribution",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "tertiary": "Tertiary",
+      "light_vs_dark": "Light vs Dark Mode Sessions",
+      "light_mode": "Light Mode",
+      "dark_mode": "Dark Mode"
+    },
+    "table": {
+      "title": "Recent Theme Exports",
+      "search_placeholder": "Search themes...",
+      "columns": {
+        "theme_name": "Theme Name",
+        "harmony": "Harmony",
+        "base_color": "Base Color",
+        "exported_at": "Exported At",
+        "status": "Status"
+      },
+      "status": {
+        "success": "Completed",
+        "danger": "Failed",
+        "neutral": "Pending"
+      }
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "view_link": "View",
+      "exported": "Exported **{{theme}}** to Figma",
+      "new_user": "New user **{{user}}** joined the workspace",
+      "saved": "Saved **{{palette}}** to shared library",
+      "generated": "Generated **{{count}}** variations of {{type}}"
+    },
+    "alerts": {
+      "success": "System is running smoothly. All services operational.",
+      "danger": "Failed to sync 3 palettes to the cloud. Retrying...",
+      "info": "New version of TypeHue is available. [Update now]"
+    },
+    "typography": {
+      "title": "Typography System",
+      "section_heading": "The quick brown fox jumps over the lazy dog",
+      "body_text": "TypeHue provides a robust typography engine that allows you to preview font pairings in real-time. Change your theme settings to see how different fonts interact with your layout.",
+      "label_display": "Display Font: {{font}}",
+      "label_body": "Body Font: {{font}}"
+    },
+    "seo": {
+      "title": "Dashboard Preview | TypeHue Theme Testing",
+      "description": "Stress-test your themes in a data-heavy environment. Check contrast, readability, and component isolation in real-time.",
+      "keywords": "dashboard design, UI stress test, theme testing, dashboard typography, color contrast testing"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "common": {
+    "undo": "Undo",
+    "randomize": "Randomize",
+    "light": "Light",
+    "dark": "Dark",
+    "english": "English",
+    "arabic": "العربية",
+    "custom": "Custom",
+    "select_preset": "Select a preset...",
+    "select_palette": "Select a palette...",
+    "open": "Open Settings",
+    "close": "Close"
+  },
+  "panel": {
+    "title": "Configuration",
+    "layout_lang": "Layout & Language",
+    "lang_dir": "Language / Direction",
+    "active_layout": "Active Layout",
+    "typography": "Typography",
+    "presets": "Presets",
+    "display_font": "Display Font",
+    "body_font": "Body Font",
+    "display_weight": "Display Weight",
+    "display_spacing": "Display Spacing",
+    "display_height": "Display Height",
+    "body_weight": "Body Weight",
+    "body_height": "Body Height",
+    "color_palette": "Color Palette",
+    "auto": "Auto",
+    "generate": "Generate",
+    "clean_slate": "Clean Slate",
+    "brand": "Brand",
+    "harmony": "Palette Harmony",
+    "harmony_modes":{
+      "analogous": "Analogous",
+      "triadic": "Triadic",
+      "split-complementary": "Split",
+      "complementary": "Complementary"
+    },
+    "primary": "Primary",
+    "primary_fg": "Primary FG",
+    "secondary": "Secondary",
+    "secondary_fg": "Secondary FG",
+    "tertiary": "Tertiary",
+    "tertiary_fg": "Tertiary FG",
+    "structure": "Structure",
+    "background": "Background",
+    "surface": "Surface",
+    "text": "Text",
+    "text_muted": "Text Muted",
+    "border": "Border",
+    "export": "Export Selection",
+    "secondary_modes": {
+      "complementary": "Complementary",
+      "analogous": "Analogous",
+      "triadic": "Triadic"
+    },
+    "auto_derived": "Auto Derived",
+    "auto_derive_color": "Auto Derive Color",
+    "clear_field": "Clear field",
+    "edit_manual": "Edit manual value"
+  },
+  "picker": {
+    "search_placeholder": "Search 1,500+ fonts...",
+    "no_fonts": "No fonts found in this category",
+    "preview_text": "This is {{family}}",
+    "categories": {
+      "All": "All",
+      "Sans-serif": "Sans-serif",
+      "Serif": "Serif",
+      "Display": "Display",
+      "Monospace": "Monospace"
+    }
+  },
+  "export_modal": {
+    "title": "Export Your Theme",
+    "css_vars": "CSS",
+    "tailwind": "Tailwind",
+    "google_fonts": "Fonts",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "download": "Download .css"
+  },
+  "layouts": {
+    "homepage": "HomePage",
+    "dashboard": "Dashboard",
+    "docs": "Documentation",
+    "soon": "Coming soon!"
+  }
+}

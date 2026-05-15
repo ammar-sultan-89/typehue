@@ -1,0 +1,71 @@
+{
+  "homepage":{
+    "hero": {
+      "badge": "Open Source · MIT License",
+      "title": "Test Drive",
+      "title_span": "Type & Color",
+      "title_suffix": "On Real UI.",
+      "description": "TypeHue lets you test Google Font pairings and full color themes on actual UI layouts, in real time, with full Arabic & RTL support. Built by a dev, for devs, based on actual needs.",
+      "cta_primary": "View on Github",
+      "cta_secondary": "See Features"
+    },
+    "features": {
+      "principles": "Core Features",
+      "title": "A theme testbed,",
+      "title_span": "not a preview box.",
+      "description": "Most tools show you a font in isolation. TypeHue applies your choices - fonts, weights, palettes - to full UI layouts and changes them live to find the perfect visual harmony.",
+      "item_1_title": "Full Palette Testing",
+      "item_1_desc": "Test your entire color system, backgrounds, surfaces, borders, text, not just a primary swatch. See contrast and hierarchy live.",
+      "item_2_title": "Google Fonts Library",
+      "item_2_desc": "Search and pair any Google Font. Adjust weight, size, spacing, and line height with live feedback across the whole layout.",
+      "item_3_title": "Arabic & RTL Support",
+      "item_3_desc": "Layouts are bidirectional. Switch to Arabic and test your font choices with proper RTL layout - something no other tool does well.",
+      "item_4_title": "Production Layouts",
+      "item_4_desc": "Test on real UI patterns: dashboards, landing pages, forms. More layouts are coming - and you can add your own via pull request."
+    },
+    "navigation": {
+      "home": "Home",
+      "features": "Features",
+      "about": "About",
+      "cta": "Say Hi"
+    },
+    "about": {
+      "title_line1": "Why I built",
+      "title_line2": "this tool.",
+      "description_p1": "I build enterprise solutions end-to-end — dashboards, design systems, internal tools. Every project starts with the same problem: I need to pick fonts and colors that work together on a real interface, not in a Figma frame.",
+      "description_p2": "Every tool I tried was either paywalled, too basic, or ignored Arabic entirely. So I built the thing I actually needed: a live skinning engine that runs in the browser, costs nothing, and respects RTL out of the box.",
+      "quote": "The only way to know if a font works is to see it in context; with colors, on real layouts, in all languages."
+    },
+    "cta": {
+      "title": "Come build it with me.",
+      "description": "TypeHue is MIT-licensed and designed to grow. Add a layout, contribute a preset, fix a bug... the architecture is built for it. Your contributions help make this tool useful for everyone.",
+      "view_repo": "View Repository",
+      "contact_me": "Say Hi to Me"
+    },
+    "footer": {
+      "description": "TypeHue is a personal project born out of a frustration with existing font preview tools. It's built to be fast, useful, and open.",
+      "built_with": "Built with",
+      "built_by": "by",
+      "built_for": "for developers",
+      "dev_name": "Ammar Sultan",
+      "github": "Github",
+      "twitter": "Twitter",
+      "license": "MIT License.",
+      "explore": "Explore",
+      "support": "Support",
+      "contact": "Contact",
+      "feedback": "Feedback",
+      "repository": "Repository",
+      "layouts": "Layouts"
+    },
+    "lofiui": {
+      "cta": "SUBMIT",
+      "palette": "Palette"
+    },
+    "seo": {
+      "title": "TypeHue | Real-time Font & Color Theme Tester",
+      "description": "Free, open-source font and color theme tester. Preview Google Fonts and full palettes on real UI layouts — with first-class Arabic and RTL support.",
+      "keywords": "typography tester, color palette tool, font pairing, google fonts preview, developer tools, theme tester, RTL support"
+    }
+  }
+}

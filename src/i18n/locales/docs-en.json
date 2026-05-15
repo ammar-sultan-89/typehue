@@ -1,0 +1,21 @@
+{
+  "docs": {
+    "seo": {
+      "title": "Documentation | How TypeHue Works",
+      "description": "TypeHue documentation — architecture, CSS variable system, Arabic RTL support, and how to contribute layouts and presets.",
+      "keywords": "developer documentation, RTL typography, CSS variables, theme engine, open source design tool"
+    },
+    "title": "Documentation",
+    "breadcrumb_root": "TypeHue",
+    "nav": {
+      "getting-started": "Getting Started",
+      "layouts": "Layouts",
+      "typography": "Typography",
+      "colors": "Colors",
+      "how-it-works": "How It Works",
+      "contributing": "Contributing",
+      "planned-improvements": "Roadmap"
+    },
+    "footer": "Built for developers who are having a hard time making design decisions."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "common": {
+    "undo": "تراجع",
+    "randomize": "عشوائي",
+    "light": "فاتح",
+    "dark": "داكن",
+    "english": "English",
+    "arabic": "العربية",
+    "custom": "مخصص",
+    "select_preset": "اختر إعداداً مسبقاً...",
+    "select_palette": "اختر لوحة ألوان...",
+    "open": "افتح الإعدادات",
+    "close": "إغلاق"
+  },
+  "panel": {
+    "title": "الإعدادات",
+    "layout_lang": "الواجهة واللغة",
+    "lang_dir": "اللغة / الاتجاه",
+    "active_layout": "الواجهة النشطة",
+    "typography": "الخطوط",
+    "presets": "مجموعات جاهزة",
+    "display_font": "خط العنوان",
+    "body_font": "خط المحتوى",
+    "display_weight": "وزن العنوان",
+    "display_spacing": "تباعد العنوان",
+    "display_height": "ارتفاع العنوان",
+    "body_weight": "وزن المحتوى",
+    "body_height": "ارتفاع المحتوى",
+    "color_palette": "لوحة الألوان",
+    "auto": "تلقائي",
+    "generate": "توليد",
+    "clean_slate": "مسح الكل",
+    "brand": "العلامة",
+    "harmony": "تناغم الألوان",
+    "harmony_modes": {
+      "analogous": "متجاور",
+      "triadic": "ثلاثي",
+      "split-complementary": "متقابل",
+      "complementary": "متكامل"
+    },
+    "primary": "الأساسي",
+    "primary_fg": "نص الأساسي",
+    "secondary": "الثانوي",
+    "secondary_fg": "نص الثانوي",
+    "tertiary": "الثالثي",
+    "tertiary_fg": "نص الثالثي",
+    "structure": "الهيكل",
+    "background": "الخلفية",
+    "surface": "الأسطح",
+    "text": "النص",
+    "text_muted": "نص ثانوي",
+    "border": "الحدود",
+    "export": "تصدير الاختيارات",
+    "secondary_modes": {
+      "complementary": "متكامل",
+      "analogous": "متجاور",
+      "triadic": "ثلاثي"
+    },
+    "auto_derived": "مشتق تلقائياً",
+    "auto_derive_color": "اشتقاق اللون تلقائياً",
+    "clear_field": "مسح الحقل",
+    "edit_manual": "تعديل يدوي"
+  },
+  "picker": {
+    "search_placeholder": "ابحث في أكثر من 1500 خط...",
+    "no_fonts": "لم يتم العثور على خطوط في هذه الفئة",
+    "preview_text": "هذا هو خط {{family}}",
+    "categories": {
+      "All": "الكل",
+      "Sans-serif": "بدون تذييل",
+      "Serif": "تذييلي",
+      "Display": "عرض",
+      "Monospace": "أحادي المسافة"
+    }
+  },
+  "export_modal": {
+    "title": "تصدير السمة الخاصة بك",
+    "css_vars": "CSS",
+    "tailwind": "Tailwind",
+    "google_fonts": "Fonts",
+    "copy": "نسخ",
+    "copied": "تم النسخ!",
+    "download": "تحميل ملف .css"
+  },
+  "layouts": {
+    "homepage": "الصفحة الرئيسية",
+    "dashboard": "لوحة التحكم",
+    "docs": "المستندات",
+    "soon": "قريباً!"
+  }
+  
+}
