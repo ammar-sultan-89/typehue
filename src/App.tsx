@@ -30,7 +30,12 @@ const PreviewArea = ({ isPanelOpen }: { isPanelOpen: boolean }) => {
 };
 
 export default function App() {
-  const [isPanelOpen, setIsPanelOpen] = useState(true);
+  const [isPanelOpen, setIsPanelOpen] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth >= 768;
+    }
+    return true;
+  });
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   return (

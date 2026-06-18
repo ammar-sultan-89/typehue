@@ -93,7 +93,11 @@ export function SettingsPanel({ isMobileOpen, isOpen, setIsOpen }: SettingsPanel
         <div className="flex-1 overflow-y-auto p-6 space-y-10 selection:bg-primary/20 custom-scrollbar">
           
           {/* AREA 1: LAYOUT */}
-          <LayoutSection />
+          <LayoutSection onLayoutChange={() => {
+            if (window.innerWidth < 768) {
+              setIsOpen(false);
+            }
+          }} />
 
           <hr className="border-border/50" />
 
